@@ -1,0 +1,37 @@
+
+@media only screen and (min-width: 769px) and (max-width : 1024px){
+    
+}
+
+
+@media only screen and (min-width: 561px) and (max-width : 768px){
+    .inner_career{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width : 560px){
+    .inner_career{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .header{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .career_opurtunities h1{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .career_opurtunities li{
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .career_opurtunities ul li img {
+        margin-top: 5px;
+    }
+    .career_opurtunities_button{
+        flex-direction: column;
+        margin-top: 15px;
+    }
+}
